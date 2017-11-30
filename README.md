@@ -18,6 +18,9 @@
 * 常用网站弱化为我的收藏第一类（待定）
 * 增加工具：汉字转16进制
 
+#### 修复bug
+
+* [收藏列表第二页无法取消收藏](https://github.com/hongyangAndroid/wanandroid/issues/22)
 
 ### V3.0 
 
