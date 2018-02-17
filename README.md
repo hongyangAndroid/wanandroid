@@ -4,20 +4,45 @@
 * [http://www.wanandroid.com/](http://www.wanandroid.com/)
 * [http://www.wanandroid.com/](http://www.wanandroid.com/)
 
-如果您有任何建议或者遇到什么问题，可以在[提问题](https://github.com/hongyangAndroid/wanandroid/issues)反馈。
+本站并没有特别固定的功能迭代，多数需求由我个人去尝试新增，当然也会不定的去根据用户反馈做一些修正，这里会详细记录整个网站的历程，也算是为未来保留一些痕迹。
 
-也可以加入交流群：591683946
+在这里您可以：
+
+* 任何建议或者遇到什么问题，可以在[提问题](https://github.com/hongyangAndroid/wanandroid/issues)反馈。
+* 也可以加入交流群：591683946
+* 还可以选择[赞助本站](http://www.wanandroid.com/blog/show/2030)
 
 ### 计划
 
-* 常用网站分类显示，独立为单独tab
-* 增加修改个人信息页
+* 增加功能：用户提交文章
+* 增加工具：便签 or 计划分类管理
 * 增加工具：汉字转16进制
 * 增加工具：时间戳
 * 增加工具：dp2px，px2dp
-* 增加工具：支持模拟Http请求，返回JSON数据
-* 增加新的Tab:开源项目
 
+
+### 2018-02-17
+
+* 优化体验：文章落地页显示目录[\[参考1\]](http://www.bewindoweb.cn/143.html)
+
+<img src="http://www.wanandroid.com/blogimgs/4b7a01f1-bd6f-4dd3-a4ea-d38d38563b48.png" alt="c1.png"/>
+
+* [其他：重新梳理了网站API](http://www.wanandroid.com/blog/show/2)
+* 优化体验：文章md渲染改为后台完成
+* 后台：优化编写博客页面
+
+
+### 2018-02-04
+
+* [增加工具：支持模拟Http请求，返回JSON数据](http://www.wanandroid.com/tools/mockapi)
+* [增加新的Tab:开源项目](http://www.wanandroid.com/project)
+* [增加新的Tab:android常用导航](http://www.wanandroid.com/navi)
+* 添加用户中心页面（支持修改密码，补充邮箱信息，鼠标指向用户名显示）
+* 后台：项目管理（新增、删除、爬虫等），对应Tab项目
+
+#### bugfix
+
+* [搜索报错](https://github.com/hongyangAndroid/wanandroid/issues/36) 
 
 ### 2018-01-06 
 
