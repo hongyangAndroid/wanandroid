@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "玩Android一键分享插件",
+  "description": "玩Android一键分享插件，可以将打开的文章稍后读，也可以一键分享文章",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "webRequest", // web请求
+    "webRequestBlocking", // 阻塞式web请求
+    "storage", // 插件本地存储
+    "http://*/*", 
+    "<all_urls>",
+    "cookies"
+  ]
+}

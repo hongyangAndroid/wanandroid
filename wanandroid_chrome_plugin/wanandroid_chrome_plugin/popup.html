@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>wanandroid 插件</title>
+  <style>
+    *{margin: 0;padding: 0;font-size: 100%;border: 0;outline: 0;background: transparent;}
+    body{width: 600px;padding: 40px 10px 10px 10px;}
+    .normal_text, .normal_btn{font-size: 16px;clear: both;overflow: hidden;margin-top: 20px;}
+    .normal_text label{display: inline-block;float: left;width: 80px;height: 40px;line-height: 40px;text-align: right;
+      color:#767676;}
+    .normal_text input{display: inline-block;float: left;width: 500px;height: 40px;line-height: 40px;font-size: 16px;
+      border: 1px solid #dadce0;border-radius: 3px;text-indent: 3px;color: #333;}
+    .normal_btn{margin-top: 30px;}
+    .normal_btn button{float: right;background-color: #3498db;color:#fff;width: 100px;height: 40px; line-height:40px;
+      text-indent: 3px;margin-right: 20px;border-radius: 3px;text-align: center;font-size: 16px;cursor: pointer;}
+    .normal_btn button[disabled="disabled"]{background-color:#eee; cursor: default;color: #888888;}
+    #alertMsg{width: 100%;text-align: center;height: 40px;line-height: 40px;font-size: 16px;margin-top: 10px;}
+  </style>
+  <script src="jquery-1.8.3.js"></script>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div class="normal_text">
+    <label>标题：</label><input name="title" type="text"/>
+  </div>
+  <div class="normal_text">
+    <label>链接：</label><input name="link" type="text"/>
+  </div>
+  <div class="normal_btn">
+    <button id="publish">一键分享</button>
+    <button id="collect">一键收藏</button>
+  </div>
+  <div id="alertMsg"></div>
+</body>
+
+</html>
