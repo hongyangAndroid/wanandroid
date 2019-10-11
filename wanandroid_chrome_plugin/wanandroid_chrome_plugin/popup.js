@@ -18,6 +18,14 @@ document.addEventListener('DOMContentLoaded', function() {
         title = title.replace(/[-]\s*掘金/,"");
     }else if(url.indexOf("/www.jianshu.com/") != -1){
         title = title.replace(/[-]\s*简书/,"");
+    }else if(url.indexOf("/blog.csdn.net/") != -1){
+        title = title.replace(/^[(]\d+[)]/,"");
+        title = title.replace(/[-]\s*CSDN博客/,"");
+        if(title.lastIndexOf("-")!=-1){
+            title = title.substring(0,title.lastIndexOf("-"));
+        }
+    }else if(url.indexOf("/segmentfault.com/") != -1){
+        title = title.replace(/[-]\s*SegmentFault 思否/,"");
     }
 
     $('input[name="title"').val(title);
